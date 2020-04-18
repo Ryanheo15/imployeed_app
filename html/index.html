@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+          integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+    <!-- Google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- CUSTOM CSS -->
+    <link rel = "stylesheet" href = "../css/style.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+    <title>imployeed</title>
+</head>
+
+<body>
+
+  <!-- Temporary Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-info p-2">
+    <div class = "container">
+
+      <a class="navbar-brand text-white" href="#">imployeed</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>3
+      </button>
+
+      <div class="float-right" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="../html/settings.html">Settings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Account</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Chat</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <!-- NAVBAR CONTENT
+  <div class="wrapper">
+
+      <!-- Sidebar
+      <nav id="sidebar">
+          <div class="sidebar-header">
+              <h3>imployeed <br>menu</h3>
+          </div>
+
+          <ul class="list-unstyled components">
+              <li class="active">
+                  <a href="#">Home</a>
+              </li>
+              <li>
+                  <a href="#">Settings</a>
+              </li>
+              <li>
+                  <a href = "#">Account</a>
+              </li>
+              <li>
+                  <a href="#">Chat</a>
+              </li>
+          </ul>
+      </nav>
+
+      <!-- Page Content
+      <div id="content">
+      </div>
+
+  </div>
+
+  -->
+
+<!-- MAIN CONTENT -->
+<section class = "main ">
+    <div class = "row">
+      <div class = "col-md-3">
+        <!-- SIDE MENU HEADER -->
+        <div class = "row">
+          <div class = "col-md-6 find-col">
+            <button class = "btn btn-danger btn-lg find">
+              Find
+            </button>
+          </div>
+
+          <div class = "col-md-6 post-col">
+            <button class = "btn btn-primary btn-lg post">
+              Post
+            </button>
+          </div>
+        </div>
+
+        <!-- SIDE MENU FORM -->
+        <div class = "row mt-4">
+          <div class = "col-md-10 mx-auto">
+            <form>
+                <h5>Search</h5>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search" placeholder="Enter Location">
+                </div>
+
+                <h5>Filters</h5>
+                <div class="form-group mt-3">
+                  <label for="wage">Wage Range</label>
+                  <select class="form-control" id="wage">
+                    <option>< $15</option>
+                    <option>$15 - $20</option>
+                    <option>$20 - $25</option>
+                    <option>$25 - $30</option>
+                    <option>$30+</option>
+                  </select>
+                </div>
+
+                <div class = "form-group">
+                  <label>Job Type</label>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      Fast Food
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Retail Store
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Office Job
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Other
+                    </label>
+                  </div>
+                </div>
+
+
+                <div class="form-group mt-3">
+                  <label for="hours">Hours</label>
+                  <select class="form-control" id="hours">
+                    <option><10</option>
+                    <option>10 - 15</option>
+                    <option>15 - 20</option>
+                    <option>20 - 25</option>
+                    <option>30 - 35</option>
+                    <option>35 - 40</option>
+                    <option>40+</option>
+                  </select>
+                </div>
+
+            </form>
+          </div>
+        </div>
+
+
+        </div>
+
+      <div class = "col-md-9 maps">
+        <img class = "img-fluid" src = "https://www.google.com/maps/about/images/mymaps/mymaps-desktop-16x9.png">
+      </div>
+
+      </div>
+</section>
+
+<footer>
+
+</footer>
+
+<!-- Optional JavaScript -->
+<!-- jQuery CDN - Slim version (=without AJAX) -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<!-- Popper.JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</body>
+</html>
