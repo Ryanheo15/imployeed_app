@@ -14,6 +14,8 @@
  * NavBar
  */
 
+/* ---------------------------------------------------- */
+/* INDEX */
 /*
  * Main Page Content
  */
@@ -29,6 +31,19 @@
  /* MAPS */
  .maps {
    padding:0px;
+
+ }
+
+/* ----------------------------------------------------- */
+/*SETTINGS */
+
+/*
+ * Main Page Content
+ */
+ .setting-main{
+   height:100vh;
+   background-color:#f7f8fd;
+   color:red;
  }
 
 /*
